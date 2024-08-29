@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Checkout Code') {
       steps {
-        git(url: 'https://github.com/chenYu3520/curriculum-app', branch: 'dev')
+        git(url: 'https://github.com/faraday-academy/curriculum-app.git', branch: 'dev')
       }
     }
 
