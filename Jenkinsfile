@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Checkout Code') {
       steps {
-        git(url: 'https://github.com/chenYu3520/curriculum-app/tree/master', branch: 'master')
+        git(url: 'https://github.com/chenYu3520/curriculum-app/tree/master', branch: 'dev')
       }
     }
 
