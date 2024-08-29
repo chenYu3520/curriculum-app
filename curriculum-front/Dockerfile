@@ -2,6 +2,7 @@ FROM node:lts-alpine
 WORKDIR /usr/src/app
 COPY curriculum-front/package*.json ./
 RUN ls -l
+RUN npm config set registry https://registry.npmmirror.com/
 RUN npm install
 COPY curriculum-front ./
 RUN ls -l
